@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
-  <mime-type type="text/rhtml">
-    <sub-class-of type="text/html"/>
-    <comment>RHTML Template</comment>
-    <magic priority="50">
-      <match value="&lt;%" type="string" offset="0"/>
-    </magic>
-    <glob pattern="*.rhtml"/>
-    <glob pattern="*.erb"/>
-  </mime-type>
-  <mime-type type="application/x-ruby">
-    <comment>Ruby JavaScript</comment>
-    <glob pattern="*.rjs"/>
-  </mime-type>
   <mime-type type="application/x-ruby">
     <comment>RubyGems gem specification</comment>
     <glob pattern="*.gemspec"/>
@@ -50,14 +37,4 @@
     <glob pattern="*.rxml"/>
     <glob pattern="*.builder"/>
   </mime-type>
-  <mime-type type="text/x-yaml">
-    <comment>YAML Ain't Markup Language</comment>
-    <glob pattern="*.yml"/>
-    <glob pattern="*.yaml"/>
-  </mime-type>
-  <mime-type type="text/x-cucumber">
-    <comment>Cucumber feature plain text file</comment>
-    <glob pattern="*.feature"/>
-  </mime-type>
 </mime-info>
-
