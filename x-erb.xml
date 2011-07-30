@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="text/x-html-erb">
+    <sub-class-of type="text/html"/>
+    <comment>Ruby embedded in HTML (erb)</comment>
+    <magic priority="50">
+      <match value="&lt;%" type="string" offset="0"/>
+    </magic>
+    <glob pattern="*.html.erb"/>
+    <glob pattern="*.rhtml"/>
+  </mime-type>
+
+  <mime-type type="application/x-javascript-erb">
+    <sub-class-of type="application/javascript"/>
+    <comment>Ruby embedded in JavaScript (erb)</comment>
+    <magic priority="50">
+      <match value="&lt;%" type="string" offset="0"/>
+    </magic>
+    <glob pattern="*.js.erb"/>
+  </mime-type>
+  
+  <mime-type type="application/x-ruby-erb">
+    <sub-class-of type="application/ruby"/>
+    <comment>Ruby embedded in Ruby (erb)</comment>
+    <magic priority="50">
+      <match value="&lt;%" type="string" offset="0"/>
+    </magic>
+    <glob pattern="*.rb.erb"/>
+  </mime-type>
+</mime-info>
+
