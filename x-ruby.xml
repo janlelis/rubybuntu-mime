@@ -8,6 +8,10 @@
     <comment>Ruby Rakefile</comment>
     <glob pattern="Rakefile"/>
   </mime-type>
+  <mime-type type="application/x-ruby-bundler-gemfile-lock">
+    <comment>Bundler Gemfile.lock</comment>
+    <glob pattern="Gemfile.lock"/>
+  </mime-type>
   <mime-type type="application/x-ruby">
     <comment>Bundler Gemfile</comment>
     <glob pattern="Gemfile"/>
