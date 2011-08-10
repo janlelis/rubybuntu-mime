@@ -41,4 +41,8 @@
     <glob pattern="*.rxml"/>
     <glob pattern="*.builder"/>
   </mime-type>
+  <mime-type type="application/x-ruby">
+    <comment>Ruby .irbrc</comment>
+    <glob pattern=".irbrc"/>
+  </mime-type>
 </mime-info>
