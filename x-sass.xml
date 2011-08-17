@@ -4,5 +4,11 @@
 		<sub-class-of type="text/plain"/>
 		<comment>Sass - CSS templating language</comment>
 		<glob pattern="*.sass"/>
+  </mime-type>
+
+	<mime-type type="text/x-scss">
+		<sub-class-of type="text/plain"/>
+		<comment>SCSS - SASSified CSS</comment>
+		<glob pattern="*.scss"/>
 	</mime-type>
 </mime-info>
