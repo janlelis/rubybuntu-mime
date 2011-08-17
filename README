@@ -1,1 +1,13 @@
 Ruby/Rails/Web related gnome mime types.
+
+== Setup
+=== as root
+
+   sudo cp *.xml /usr/share/mime/packages
+   sudo update-mime-database /usr/share/mime
+
+=== as non-root
+
+    mkdir -p ~/.local/share/mime/packages
+    cp *.xml ~/.local/share/mime/packages
+    update-mime-database ~/.local/share/mime
