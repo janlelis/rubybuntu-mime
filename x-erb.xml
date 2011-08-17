@@ -12,20 +12,31 @@
 
   <mime-type type="application/x-javascript-erb">
     <sub-class-of type="application/javascript"/>
+    <alias type="text/x-javascript-erb"/>
     <comment>Ruby embedded in JavaScript (erb)</comment>
     <magic priority="50">
       <match value="&lt;%" type="string" offset="0"/>
     </magic>
     <glob pattern="*.js.erb"/>
   </mime-type>
-  
+
   <mime-type type="application/x-ruby-erb">
     <sub-class-of type="application/ruby"/>
+    <alias type="text/x-ruby-erb"/>
     <comment>Ruby embedded in Ruby (erb)</comment>
     <magic priority="50">
       <match value="&lt;%" type="string" offset="0"/>
     </magic>
     <glob pattern="*.rb.erb"/>
   </mime-type>
-</mime-info>
 
+  <mime-type type="application/x-yaml-erb">
+    <sub-class-of type="application/x-yaml"/>
+    <alias type="text/x-yaml-erb"/>
+    <comment>Ruby embedded in Yaml (erb)</comment>
+    <magic priority="50">
+      <match value="&lt;%" type="string" offset="0"/>
+    </magic>
+    <glob pattern="*.rb.erb"/>
+  </mime-type>
+</mime-info>
