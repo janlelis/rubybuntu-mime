@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-ruby">
+    <alias type="text/x-ruby"/>
+    <comment>Ruby Rake Tasks</comment>
+    <glob pattern="Rakefile"/>
+    <glob pattern="rakefile"/>
+    <glob pattern="*.rake"/>
+  </mime-type>
+</mime-info>

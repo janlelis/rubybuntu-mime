@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-ruby-bundler-gemfile-lock">
+    <alias type="text/x-ruby-bundler-gemfile-lock"/>
+    <comment>Ruby Bundler Gemfile.lock</comment>
+    <glob pattern="Gemfile.lock"/>
+  </mime-type>
+  <mime-type type="application/x-ruby">
+    <alias type="text/x-ruby"/>
+    <comment>Ruby Bundler Gemfile</comment>
+    <glob pattern="Gemfile"/>
+  </mime-type>
+</mime-info>
