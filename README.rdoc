@@ -1,4 +1,6 @@
-Ruby/Rails/Web related gnome mime types.
+= Ruby/Rails/Web related gnome mime types.
+
+Part of {RubyBuntuGedit}[https://github.com/janlelis/rubybuntu-gedit]
 
 == Setup
 === as root
